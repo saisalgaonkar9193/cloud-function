@@ -1,5 +1,5 @@
-spring:
-  cloud:
-    function:
-      scan:
-        packages: com.cloud.functions
+#spring:
+#  cloud:
+#    function:
+#      scan:
+#        packages: com.cloud.functions

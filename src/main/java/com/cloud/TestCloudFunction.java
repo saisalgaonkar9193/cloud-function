@@ -21,4 +21,5 @@ public class TestCloudFunction {
     public Function<String,List<String>> words(){
         return (words)-> Stream.of(words.split(",")).collect(Collectors.toList());
     }
+
 }

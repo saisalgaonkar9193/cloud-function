@@ -1,7 +1,9 @@
 package com.cloud.functions;
 
-import java.util.function.Consumer;
+import org.springframework.stereotype.Component;
 
+import java.util.function.Consumer;
+@Component
 public class Logger implements Consumer<String> {
     @Override
     public void accept(String s) {
